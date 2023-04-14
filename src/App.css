@@ -1,0 +1,23 @@
+
+.CardShape {
+  @apply shadow-[inset_-0.243217px_-0.243217px_0.364826px_rgba(0,0,0,0.36)] backdrop-blur-[15.2011px] rounded-[9.12064px];
+  background: linear-gradient(113.08deg, #ffffff -242.51%, #14101d 85.56%);
+}
+.PaypalCard {
+  @apply absolute w-[234.76px] h-[207.7px] shadow-[4px_6px_30px_rgba(19,36,46,0.25)] rounded-[10px] left-[283px]  bottom-[222px];
+  background: linear-gradient(110.53deg, #ffffff -265.46%, #14101d 96.75%);
+}
+
+.blueGradiantbtn {
+  @apply w-[72px] h-[35px] rounded-[10px];
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+

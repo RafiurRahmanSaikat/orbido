@@ -5,8 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        textWhite:"#FFFFFF",
+      
+        White:"#FDFDFE",
+        LightGreen:"#DFFFF0",
         primary: "#00040f",
         secondary: "#00f6ff",
+        lightCyan1:"#DEF9FA",
+        lightCyan2:"#9DEDF0",
+        lightCyan3:"#33BBCF",
         green: "#1fd8cd",
         cyan:"#12badf",
         pink:"#c5018e ",

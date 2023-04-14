@@ -24,4 +24,11 @@ export { default as people01 } from "./people01.png";
 export { default as people02 } from "./people02.png";
 export { default as people03 } from "./people03.png";
 export { default as ORBIDO } from './ORBIDO.png'
+export { default as OrbidoLogo } from './OrbidoLogo.png'
+export { default as Red } from './Red.png'
+export { default as Green } from './Green.png'
+export { default as Dribble } from './Dribble.svg'
+export { default as Netflix } from './Netflix.svg'
+export { default as Paypal } from './Paypal.svg'
+export { default as Cash  } from './Cash.png'
 

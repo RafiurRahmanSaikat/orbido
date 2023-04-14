@@ -1,15 +1,38 @@
-import { apple, bill, google } from "../assets";
-
+import { apple, Dribble, Netflix, google, Red, Cash, Green } from "../assets";
+import PaypalCard from "./PaypalCard";
+import TransactionCard from "./TransactionCard";
 const Billing = () => (
+  <section id="product" className='flex justify-around h-[436.56px]   md:flex-row flex-col-reverse  sm:py-16 py-6'>
+    <div className="CardShape  p-[25px] w-[346.45px]">
+      <p className=" font-poppins text-[22px] ">
+        Last Transaction
+      </p>
+    <PaypalCard />
+      <TransactionCard
+        img={Dribble}
+        label={"Dribbble Pro"}
+        dueDate={'15 Days ago'}
+        icon={Red}
+        amount={"-$250,93"}
+      />
+      <TransactionCard
+        img={Netflix}
+        style={"bg-White"}
+        label={"Netflix"}
+        dueDate={'4 Days ago'}
+        icon={Red}
+        amount={"-$250,93"}
+      />
+      <TransactionCard
+        img={Cash}
+        label={"Manulife"}
+        dueDate={'4 Days ago'}
+        icon={Green}
+        amount={"-$250,93"}
+      />
+    </div>
 
-  <section id="product" className='flex  md:flex-row flex-col-reverse justify-center sm:py-16 py-6'>
 
-
-    <img src={bill} al t="billing" className="w-[40vw] relative z-[5]" />
-
-    {/* <div className='flex-1 flex justify-center items-center  md:mr-10 mr-0 md:mt-0 mt-10 relative'>
-      
-    </div> */}
 
     <div className='flex justify-center items-start flex-col'>
       <h2 className='font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full'>

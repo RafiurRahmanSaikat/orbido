@@ -21,9 +21,9 @@ const Hero = () => {
         </div> */}
 
           {/* gradient end */}
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      {/* <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
-      </div>
+      </div> */}
     </section>
   );
 };

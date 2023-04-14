@@ -1,22 +1,25 @@
 import React from 'react';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Business from './components/Business';
-import Clients from './components/Clients';
-import Billing from './components/Billing';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
+import  './App.css'
+import { Billing, Business, CTA, Clients, Footer, Hero, Navbar } from './components';
+
+
+
 
 const App = () => {
   return (
-    <section className='min-h-screen  bg-black  text-white'>
-      <Navbar />
-      <Hero />
-      <Business />
-      <Billing />
-      <Clients />
-      <CTA/>
-      <Footer/>
+    <section className='bg-black text-white'>
+      <div className=''>
+        <Navbar />
+
+        
+        <Hero />
+        <Business />
+        <Billing />
+        <Clients />
+        <CTA />
+        <Footer />
+      </div>
+
     </section>
   );
 };

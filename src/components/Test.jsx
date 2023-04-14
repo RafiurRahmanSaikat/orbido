@@ -3,7 +3,7 @@ import { ORBIDO } from '../assets'
 import MenuItems from "./MenuItems";
 /Solution Features About Us Home/
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menu = (
     <ul className={isMenuOpen ? "" : "items-center hidden space-x-8 lg:flex"}>
@@ -77,4 +77,3 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar
