@@ -1,25 +1,24 @@
-import styles from "../style";
 import { ORBIDO, OrbidoLogo } from "../assets";
 import { footerLinks, socialMedia } from "../data";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+  <section  className='flex-col mx-20 lg:mx-40 flexCenter paddingY '>
+    <div className='flex-col w-full mb-8 flexStart md:flex-row'>
       <div className="flex-[1] flex flex-col justify-start mr-10">
-        <div className="flex">
+        <div className="flex w-[184.85px] h-[51.85px]">
           <img
             src={OrbidoLogo}
             alt="hoobank"
-            className="w-[266px] h-[72.14px] object-contain"
+            className="object-contain"
           />
           <img
             src={ORBIDO}
             alt="hoobank"
-            className="w-[266px] h-[72.14px] object-contain"
+            className="object-contain "
           />
         </div>
 
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+        <p className='paragraph mt-4 max-w-[312px]'>
           A new way to make the payments easy, reliable and secure.
         </p>
       </div>
@@ -30,7 +29,7 @@ const Footer = () => (
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
               {footerlink.title}
             </h4>
-            <ul className="list-none mt-4">
+            <ul className="mt-4 list-none">
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
@@ -51,7 +50,7 @@ const Footer = () => (
         Copyright Ⓒ 2022 HooBank. All Rights Reserved.
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row mt-6 md:mt-0">
         {socialMedia.map((social, index) => (
           <img
             key={social.id}

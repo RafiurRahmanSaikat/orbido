@@ -31,4 +31,5 @@ export { default as Dribble } from './Dribble.svg'
 export { default as Netflix } from './Netflix.svg'
 export { default as Paypal } from './Paypal.svg'
 export { default as Cash  } from './Cash.png'
+export { default as Ok  } from './Ok.png'
 

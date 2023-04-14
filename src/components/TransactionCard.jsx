@@ -7,7 +7,7 @@ const TransactionCard = ({ img,style, label, dueDate, icon, amount  }) => {
         <div className="flex font-poppins justify-around">
           <img className={`w-[41.37px] h-[38.46px] ${style} rounded-full mr-3`} src={img} alt={img} />
           <div className="flex-col justify-start">
-            <p className="h-[21.15px] w-[103.42px]  text-textWhite">{label} </p>
+            <p className="h-[21.15px] w-[103.42px]  text-White">{label} </p>
             <p className="text-dimWhite" >{dueDate}</p>
           </div>
         </div>
